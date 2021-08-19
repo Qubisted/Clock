@@ -1,0 +1,23 @@
+body {
+    background-color:#FFFAF0;
+    background-image: url('../images/TimeBot-banner.png');
+    background-size:cover;
+    background-repeat: no-repeat; 
+}
+h1 {
+    color: black;
+    font-size: 70px;
+    font-family: 'Fonseca Rounded';
+    font-weight: bold;
+    text-align: center;
+}
+p {
+    color: rgb(44, 44, 44);
+    font-size: 30px;
+    font-family: monospace;
+}
+input {
+    font-size: 30px;
+    font-family: 'Fonseca Rounded';
+    text-align: center;
+}

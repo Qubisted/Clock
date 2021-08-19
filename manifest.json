@@ -1,0 +1,18 @@
+{
+    "manifest_version": 2,
+    "name": "TimeBot",
+    "description": "A simple extension that shows the current time",
+    "permissions": [],
+
+    "version": "0.1",
+   
+    
+    "browser_action": {
+      "default_popup": "scripts/popup.html",
+      "default_title": "TimeBot",
+      "default_icon" : "images/TimeBot-icon.png"
+    },
+    "icons": {
+      "512": "images/TimeBot-icon.png"
+  }
+}
