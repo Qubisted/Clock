@@ -6,9 +6,18 @@ function getTime(){
     var h = H % 12 || 12;
     var ampm = (H < 12 || H === 24) ? " AM" : " PM";
     timeString = h + timeString.substr(2, 3) + ampm;
-    var title = document.getElementById("currenttime").value = timeString;
+    document.getElementById("currenttime").value = timeString;
 };
 
+function getName(){
+    var name = document.getElementById("userInput").value;
+    document.getElementById("names").value = name;
+    
+}
+function myFunction() {
+    var names = document.getElementById("userInput").submit();
+    document.getElementById("userInput").value = names
+  }
 
 
 getTime();
