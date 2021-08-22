@@ -9,15 +9,9 @@ function getTime(){
     document.getElementById("currenttime").value = timeString;
 };
 
-function getName(){
-    var name = document.getElementById("userInput").value;
-    document.getElementById("names").value = name;
-    
+function saveInput(){
+    var pagenotfound = document.getElementById("ay").innerHTML  = "404 could not fetch the results.."
 }
-function myFunction() {
-    var names = document.getElementById("userInput").submit();
-    document.getElementById("userInput").value = names
-  }
 
 
 getTime();

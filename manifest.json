@@ -5,12 +5,12 @@
     "permissions": [],
 
     "version": "0.1",
-    "content_security_policy":"script-src 'self' https://apis.google.com; object-src 'self''unsafe'",
+    
    
     
     "browser_action": {
       "default_popup": "scripts/popup.html",
-      "default_title": "TimeBot",
+      "default_title": "Clock.",
       "default_icon" : "images/TimeBot-icon.png"
     },
     "icons": {
