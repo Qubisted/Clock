@@ -7,19 +7,19 @@ body {
 }
 
 p {
-    color: rgb(44, 44, 44);
+    color: rgb(0, 0, 0);
     font-size: 30px;
-    font-family: monospace;
+    font-family: Yanone Kaffeesatz;
 }
 
 h1 {
-    font-size: 40px;
-    font-family: 'Rampart One', cursive;
+    font-size: 35px;
+    font-family: 'Roboto Slab', serif;
     text-align: center;
 }
 
 input {
-    font-size: 50px;
-    font-family: 'Dosis', sans-serif;
+    font-size: 30px;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
     text-align: center;
 }
